@@ -4,7 +4,7 @@ int main()
     int a[50][50],b[50][50],c[50][50], i,j,m,n;
     printf("\nEnter the dimension of array (mxn): ");
     scanf("%d %d",&m,&n);
-    printf("\nEnter first matrix: \n")
+    printf("\nEnter first matrix: \n");
     for(i=0;i<m;i++)
     {
         for(j=0;j<n;j++)
