@@ -3,10 +3,10 @@
 int main() 
 {
     int A[50][50], B[50][50], C[50][50],m1, n1, m2, n2, i, j, k;
-    printf("Enter rows and columns of the first matrix: \n");
+    printf("Enter rows and columns of matrix A: \n");
     scanf("%d %d", &m1, &n1);
 
-    printf("Enter rows and columns of the second matrix: \n");
+    printf("Enter rows and columns of the matrix B: \n");
     scanf("%d %d", &m2, &n2);
 
     if (n1 != m2) 
@@ -14,7 +14,7 @@ int main()
         printf("Matrix multiplication is not possible.\n");
         return 0;
     }
-    printf("Enter elements of the matrix A:\n");
+    printf("Enter elements of matrix A:\n");
     for (i = 0; i < m1; i++) 
     {
         for (j = 0; j < n1; j++) 
@@ -23,7 +23,7 @@ int main()
         }
     }
 
-    printf("Enter elements of the matrix B:\n");
+    printf("Enter elements of matrix B:\n");
     for (i = 0; i < m2; i++) 
     {
         for (j = 0; j < n2; j++) 
@@ -40,7 +40,7 @@ int main()
         }
     }
     
-        printf("\nMatrix A:\n");
+    printf("\nMatrix A:\n");
     for (i = 0; i < m1; i++) 
     {
         for (j = 0; j < n1; j++) 
@@ -50,7 +50,7 @@ int main()
         printf("\n");
     }
     
-        printf("\nMatrix B:\n");
+    printf("\nMatrix B:\n");
     for (i = 0; i < m2; i++) 
     {
         for (j = 0; j < n2; j++)
@@ -71,12 +71,12 @@ int main()
         }
     }
     
-    printf("Resultant matrix:\n");
+    printf("\nResultant matrix:\n");
     for (i = 0; i < m1; i++) 
     {
         for (j = 0; j < n2; j++)
         {
-            printf("%d ", C[i][j]);
+            printf("%d\t", C[i][j]);
         }
         printf("\n");
     }
