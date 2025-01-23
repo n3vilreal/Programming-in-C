@@ -24,10 +24,6 @@ int main()
             break;
         }
     }
-    for(i=0;rev[i]!='\0';i++)
-    {
-        printf("%c",rev[i]);
-    }
     if(flag==1)
     {
         printf("\nString is not palindrome.");
