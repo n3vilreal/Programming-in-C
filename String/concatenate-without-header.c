@@ -16,6 +16,6 @@ int main()
         s1[i]=s2[j];
         j++;
     }
-    printf("\nThe concatinated string is: %s",s1);
+    printf("\nThe concatenated string is: %s",s1);
     return 0;
 }
