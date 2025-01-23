@@ -2,7 +2,7 @@
 int main()
 {
     char s1[25],s2[25];
-    int i,j=0,l;
+    int i,j=0,l=0;
     printf("\nEnter first string: ");
     scanf("%s",s1);
     printf("\nEnter second string: ");
