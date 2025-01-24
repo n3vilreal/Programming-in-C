@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-double simpleInterest(double Principle,float rate, int time);
+double simpleInterest(double,float, int);
 
 double Principle;
 float rate;
