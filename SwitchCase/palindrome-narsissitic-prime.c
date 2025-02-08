@@ -2,13 +2,13 @@
 #include<math.h>
 int main()
 {
-    int num, n, t1, t2, i, count=0,temp, rem,result=0;
+    int num, n, i, count=0, rem,result=0;
     char choice;
     while(1)
     {   
-        printf("\nMenu\na. Check prime\nb. Check narcissitic\nc. Check palindrome\nd.exit");
+        printf("\nMenu\na. Check prime\nb. Check narcissitic\nc. Check palindrome\nd. Exit");
         printf("\nEnter your choice: ");
-        scanf("%c",&choice);
+        scanf(" %c",&choice);
         printf("\nEnter number: ");
         scanf("%d",&num);
         n=num;
@@ -39,10 +39,11 @@ int main()
                     count++;
                     n/=10;
                 }
+                n=num;
                 while(n!=0)
                 {
-                    rem = n%2;
-                    result+=pow(rem,count);
+                    rem = n%10;
+                    result=result+pow(rem,count);
                     n/=10;
                 }
                 if(result==num)
@@ -58,7 +59,7 @@ int main()
             case 'c':
                  while(n!=0)
                 {
-                    rem = n%2;
+                    rem = n%10;
                     result=result*10+rem;
                     n/=10;
                 }
@@ -77,4 +78,4 @@ int main()
         }
     }
     return 0;
-}
+}   

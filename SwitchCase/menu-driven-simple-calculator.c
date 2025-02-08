@@ -18,18 +18,18 @@ int main()
                 break;
                 
             case 2: 
-                result = num1 + num2;
-                printf("\n%d + %d = %d", num1, num2, result);
+                result = num1 - num2;
+                printf("\n%d - %d = %d", num1, num2, result);
                 break;
                 
             case 3: 
-                result = num1 + num2;
-                printf("\n%d + %d = %d", num1, num2, result);
+                result = num1 / num2;
+                printf("\n%d / %d = %d", num1, num2, result);
                 break;
                 
             case 4: 
-                result = num1 + num2;
-                printf("\n%d + %d = %d", num1, num2, result);
+                result = num1 * num2;
+                printf("\n%d * %d = %d", num1, num2, result);
                 break;
                 
             case 5: return 0;
@@ -39,4 +39,5 @@ int main()
             
         }
     }
+    return 0;
 }
