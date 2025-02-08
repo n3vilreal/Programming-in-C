@@ -5,8 +5,8 @@ int main()
     int *ptr;
     printf("\nEnter number of elements: ");
     scanf("%d",&n);
-    printf("\nEnter elements in array: ");
     ptr = &a[0];
+    printf("\nEnter elements in array: ");
     for(i=0;i<n;i++)
     {
         scanf("%d",(ptr+i));
