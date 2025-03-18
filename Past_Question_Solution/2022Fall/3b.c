@@ -20,7 +20,7 @@ int main()
     {
         for(j=0; j<n; j++)
         {
-            printf("%d ",matA[i][j]);
+            printf("A%d%d =%d ",i,j,matA[i][j]);
         }
         printf("\n");
     }
@@ -30,7 +30,7 @@ int main()
     {
         for(j=0; j<m; j++)
         {
-            printf("%d ",matA[j][i]);
+            printf("A%d%d = %d ",i,j,matA[j][i]);
         }
         printf("\n");
     }
